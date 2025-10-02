@@ -25,7 +25,7 @@ It's a full-stack web application with:
  - Close → Color that are in the hidden code, but shifted one place to the left or right.
  Example:
  ![Close Explanation](assets/close.png)
- #### Special Rule
+ #### **Special Rule**
  If the player chooses a code length of 4, then the colors 1, 2, 3, and 4 are guaranteed to be in the hidden code exactly once each.
  **The challenge is to determine their correct order.**
 
