@@ -23,6 +23,7 @@ It's a full-stack web application with:
  Feedback in this mode:
  - Position and number → Color guessed correctly in the correct position.
  - Close → Color that are in the hidden code, but shifted one place to the left or right.
+ 
  Example:
  ![Close Explanation](assets/close.png)
  #### **Special Rule**
