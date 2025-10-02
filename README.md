@@ -8,26 +8,21 @@ It's a full-stack web application with:
  - Database → PostgreSQL 
 
 ## Game Modes
-
  ### Mode 1: Colors Can Repeat (Standard MasterMind)
  This is the classic MasterMind game, where colors in the hidden code may repeat.
-
  #### After each attempt, the player receives feedback:
  - Position and number → Color that are in the correct position.
  - Color → Color presents in the hidden code, but placed in the wrong position.
-
  Colors already counted as “correct position” are not counted again as “wrong position.”
 
  ### Mode 2: All Colors Are Unique (Custom Family Variant)
  This is a unique version of the game that I learned from my mother.
  In this mode, all colors in the hidden code are unique – no colors repeats.
-
  #### Feedback in this mode:
  - Position and number → Color guessed correctly in the correct position.
  - Close → Color that are in the hidden code, but shifted one place to the left or right.
-    Example:
-    ![Close Explanation](assets/close.png)
-
+ Example:
+ ![Close Explanation](assets/close.png)
  #### Special Rule
  If the player chooses a code length of 4, then the colors 1, 2, 3, and 4 are guaranteed to be in the hidden code exactly once each.
  **The challenge is to determine their correct order.**
@@ -40,14 +35,14 @@ It's a full-stack web application with:
    - **API-styled** (framed output).
 
 ## How to Play
- ### Player chooses:
+ #### Player chooses:
  - Input type
  - Length of the hidden sequence
  - Game mode
- ### Game generates a hidden sequence.
- ### Player makes guesses.
- ### After each guess, feedback is provided according to the selected mode.
- ### When the sequence is guessed correctly → The player can access game statistics.
+ #### Game generates a hidden sequence.
+ #### Player makes guesses.
+ #### After each guess, feedback is provided according to the selected mode.
+ #### When the sequence is guessed correctly → The player can access game statistics.
 
 ## Error Handling
  - All input is validated.
