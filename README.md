@@ -1,4 +1,4 @@
-# New Project - MasterMind
+# Project 1 - MasterMind
 Mastermind is a logic-based game where the computer generates a hidden sequence of digits, and the player tries to guess it.  
 
 ## Technologies
