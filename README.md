@@ -4,7 +4,7 @@ Mastermind is a logic-based game where the computer generates a hidden sequence 
 ## Technologies
 It's a full-stack web application with:
  - Backend → Java Spring Boot (Coursera - Spring Boot Web Development with Java)
- - Frontend → React Native 
+ - Frontend → React.js 
  - Database → PostgreSQL 
 
 ## Game Modes
