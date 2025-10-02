@@ -3,10 +3,10 @@ Mastermind is a logic-based game where the computer generates a hidden sequence 
 
 ## Technologies
 It's a full-stack web application with:
-    Backend → Java Spring Boot (Coursera - Spring Boot Web Development with Java)
-    Frontend → React Native 
-    Database → PostgreSQL 
----
+ - Backend → Java Spring Boot (Coursera - Spring Boot Web Development with Java)
+ - Frontend → React Native 
+ - Database → PostgreSQL 
+
 ## Game Modes
 
  ### Mode 1: Colors Can Repeat (Standard MasterMind)
@@ -31,14 +31,14 @@ It's a full-stack web application with:
  #### Special Rule
  If the player chooses a code length of 4, then the colors 1, 2, 3, and 4 are guaranteed to be in the hidden code exactly once each.
  **The challenge is to determine their correct order.**
----
+
 ## Features
  - Customizable code length (up to **8 digits**).
  - Option to enforce **unique colors**.
  - Multiple input/output modes:
    - **TXT** (plain text)
    - **API-styled** (framed output).
----
+
 ## How to Play
  ### Player chooses:
  - Input type
@@ -48,10 +48,9 @@ It's a full-stack web application with:
  ### Player makes guesses.
  ### After each guess, feedback is provided according to the selected mode.
  ### When the sequence is guessed correctly → The player can access game statistics.
----
+
 ## Error Handling
  - All input is validated.
  - If input is invalid, the player is asked to try again.
  - Empty or invalid strings are handled safely.
  - The player can exit the game at any time.
----
