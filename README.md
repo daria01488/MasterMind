@@ -39,7 +39,6 @@ It's a full-stack mobile application with:
 
 ## How to Play
  1. Player chooses:
-    - Input type
     - Length of the hidden sequence
     - Game mode
  2. Game generates a hidden sequence.
