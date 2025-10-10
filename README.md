@@ -8,31 +8,31 @@ It's a full-stack mobile application with:
  - Database → PostgreSQL 
 
 ## Game Modes
- ### Mode 1: Colors Can Repeat (Standard MasterMind)
- This is the classic MasterMind game, where colors in the hidden code may repeat.
+ ### Mode 1: Numbers Can Repeat (Standard MasterMind)
+ This is the classic MasterMind game, where numbers in the hidden code may repeat.
  
  After each attempt, the player receives feedback:
- - Position and number → Color that are in the correct position.
- - Color → Color presents in the hidden code, but placed in the wrong position.
- Colors already counted as “correct position” are not counted again as “wrong position.”
+ - Position and number → Number that are in the correct position.
+ - Number → Number presents in the hidden code, but placed in the wrong position.
+ Numbers already counted as “correct position” are not counted again as “wrong position.”
 
- ### Mode 2: All Colors Are Unique (Custom Family Variant)
+ ### Mode 2: All Numbers Are Unique (Custom Family Variant)
  This is a unique version of the game that I learned from my mother.
- In this mode, all colors in the hidden code are unique – no colors repeats.
+ In this mode, all Numbers in the hidden code are unique – no Numbers repeats.
  
  Feedback in this mode:
- - Position and number → Color guessed correctly in the correct position.
- - Close → Color that are in the hidden code, but shifted one place to the left or right.
+ - Position and number → Number guessed correctly in the correct position.
+ - Close → Number that are in the hidden code, but shifted one place to the left or right.
  
  Example:
- ![Close Explanation](assets/close.png)
+ ![Close Explanation](close.png)
  #### **Special Rule**
- If the player chooses a code length of 4, then the colors 1, 2, 3, and 4 are guaranteed to be in the hidden code exactly once each.
+ If the player chooses a code length of 4, then the Numbers 1, 2, 3, and 4 are guaranteed to be in the hidden code exactly once each.
  **The challenge is to determine their correct order.**
 
 ## Features
  - Customizable code length (up to **8 digits**).
- - Option to enforce **unique colors**.
+ - Option to enforce **unique Numbers**.
  - Multiple input/output modes:
    - **TXT** (plain text)
    - **API-styled** (framed output).
@@ -51,3 +51,10 @@ It's a full-stack mobile application with:
  - If input is invalid, the player is asked to try again.
  - Empty or invalid strings are handled safely.
  - The player can exit the game at any time.
+
+## Java Classes
+
+![Java Classes](java_classes.png)
+
+## Database
+ !["Database schema"](database.png)
