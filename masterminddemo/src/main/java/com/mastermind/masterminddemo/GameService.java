@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Engine {
+public class GameService{
     private final int[] secretCode;
     private final int[] currentGuess;
     private final boolean specialMode;
     private final int codeLength;
 
-    public Engine(int length, boolean uniqueColors) {
+    public GameService(int length, boolean uniqueColors) {
         this.codeLength = length;
         this.specialMode = uniqueColors;
         this.secretCode = generateSecret();

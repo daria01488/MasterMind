@@ -55,6 +55,5 @@ It's a full-stack mobile application with:
 ## Java Classes
 
 ![Java Classes](java_classes.png)
-
 ## Database
  !["Database schema"](database.png)
