@@ -1,6 +1,6 @@
 package com.mastermind.masterminddemo.model;
 
-import com.mastermind.masterminddemo.FeedbackTransfer;
+import com.mastermind.masterminddemo.transfer.FeedbackTransfer;
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.JdbcTypeCode;

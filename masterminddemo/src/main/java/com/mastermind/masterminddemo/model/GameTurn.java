@@ -1,6 +1,6 @@
 package com.mastermind.masterminddemo.model;
 
-import com.mastermind.masterminddemo.FeedbackTransfer;
+import com.mastermind.masterminddemo.transfer.FeedbackTransfer;
 
 //Hold the data for a single turn in the game.
 public record GameTurn(
